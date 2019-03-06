@@ -1666,8 +1666,7 @@ action=$1
 [ -z $1 ] && action=install
 case "${action}" in
     install|uninstall)
-        #${action}_shadowsocks
-        ${action}_shadowsocks 2>&1 | tee ${cur_dir}/${action}_shadowsocks.log
+        ${action}_shadowsocks
         ;;
     *)
         echo "Arguments error! [${action}]"
