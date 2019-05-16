@@ -6,3 +6,7 @@ wget --no-check-certificate -O shadowsocks_setting.sh https://raw.githubusercont
 chmod +x shadowsocks_setting.sh
 ./shadowsocks_setting.sh
 ```
+自己用的环境是CentOS 7 x64  
+参数设置是：
+- 密码:shadowsocksr
+- 端口:9000
